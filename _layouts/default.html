@@ -3,11 +3,12 @@
 		<head>
 			<title>{{ page.title }}</title>
 			<!-- link to main stylesheet -->
-			<link rel="stylesheet" type="text/css" href="/test-gh-pages/css/main.css">
+			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 		</head>
 		<body>
 			<div class="its-logo"></div>
-			<div class="container">
+			{% include nav.html %}
+		    <div class="container">
 			
 			{{ content }}
 			
@@ -15,8 +16,10 @@
 			<footer>
 	    		<ul>
 	        		<li><a href="mailto:4help@umich.edu">email</a></li>
+	        		<li><a href="/docs/about.html">About US</a></li>
+
 	        		
-			</ul>
+			     </ul>
 			</footer>
 		</body>
 	</html>
