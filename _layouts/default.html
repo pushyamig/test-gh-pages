@@ -6,20 +6,9 @@
 			<link rel="stylesheet" type="text/css" href="/assets/css/main.css">
 		</head>
 		<body>
-			<div class="its-logo"></div>
-			{% include nav.html %}
-		    <div class="container">
-			
-			{{ content }}
-			
-			</div><!-- /.container -->
-			<footer>
-	    		<ul>
-	        		<li><a href="mailto:4help@umich.edu">email</a></li>
-	        		<li><a href="/docs/about.html">About US</a></li>
-
-	        		
-			     </ul>
-			</footer>
+			<div id="page-container">
+				{{ content }}
+				{% include footer.html %}
+			</div>
 		</body>
 	</html>
