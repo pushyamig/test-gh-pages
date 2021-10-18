@@ -28,4 +28,14 @@
     display: block;
     width: 150px;
   }
+  nav ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+ }
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+ }
   
