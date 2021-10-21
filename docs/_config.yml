@@ -1,4 +1,4 @@
 name: Pushyami Gundala, Open source Developer
 markdown: kramdown
-baseurl: /test-gh-pages
+# include: [_layouts, _data, _includes]
 
